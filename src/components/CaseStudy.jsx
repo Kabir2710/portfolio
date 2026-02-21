@@ -67,7 +67,7 @@ export default function CaseStudy({ project, onClose }) {
             </div>
 
             {/* Right Column: Content & Breakdown */}
-            <div className="w-full md:w-1/2 h-full flex flex-col p-8 md:p-12 overflow-y-auto custom-scrollbar relative bg-[#121212]/40">
+            <div className="w-full md:w-1/2 h-full flex flex-col p-8 md:p-12 overflow-y-auto no-scrollbar relative bg-[#121212]/40">
               <span className="text-sm font-medium tracking-widest text-gray-400 uppercase mb-3 block">
                 {project.category}
               </span>
